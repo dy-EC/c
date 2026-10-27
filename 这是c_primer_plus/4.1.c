@@ -7,8 +7,8 @@ int main()
     scanf("%s", a);
 
     printf("\"%s\"\n", a);
-    printf("\"%18s\"\n", a);
-    printf("\"%-18s\"\n", a);
-    printf("\"%*s\"\n", (int)intstrlen(a) + 3, a);
+    printf("\"%20s\"\n", a);
+    printf("\"%-20s\"\n", a);
+    printf("\"%*s\"\n", (int)strlen(a) + 3, a);
     return 0;
 }
