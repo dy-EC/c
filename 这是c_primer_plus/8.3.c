@@ -15,7 +15,7 @@ int main()
                 {
                     A++;
                 }
-                else if(ch>=90)
+                else if(ch>=97)
                 {
                     a++;
                 }
